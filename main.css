@@ -25,41 +25,42 @@ body {
 }
 
 .rating-state {
-  width: 280px;
-  height: 300px;
+  width: 400px;
   background-color: var(--dark-blue);
   background: linear-gradient(var(--dark-blue), var(--dark-blue));
   padding: 20px;
   border-radius: 25px;
 }
 .rating-state img {
-  width: 2rem;
-  margin-bottom: 10px;
+  width: 45px;
+  margin: 15px 0;
   background-color: var(--light-dark-blue);
   border-radius: 50%;
-  padding: 8px;
+  padding: 12px;
 }
-.rating-state h2 {
+.rating-state h1 {
   color: var(--white);
   margin: 10px 0;
-  font-size: 22px;
+  font-size: 30px;
+  font-weight: normal;
 }
 .rating-state p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
-  color: var(--medium-grey)
+  color: var(--medium-grey);
+  margin:15px 0;
 }
 .rating-state .rating {
   display: flex;
   justify-content: space-around;
-  margin: 15px 0;
+  margin: 25px 0;
 }
 .rating-state .rating span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   color: var(--medium-grey);
   background-color: var(--light-dark-blue);
   border-radius: 50%;
@@ -68,12 +69,13 @@ body {
 }
 
 .rating-state .rating span:hover {
-  background-color: var(--medium-grey);
+  background-color: var(--orange);
   color: var(--white)
 }
 .rating-state button {
   width: 100%;
   padding: 10px 15px;
+  margin: 5px 0;
   background-color: var(--orange);
   border: none;
   border-radius: 30px;
@@ -91,11 +93,13 @@ body {
   color: var(--white) !important;
   background-color: var(--medium-grey)!important;
 }
+
+/* Start thank-state */
 .thank-state {
-  width: 280px;
+  width: 400px;
   background-color: var(--dark-blue);
   background: linear-gradient(var(--dark-blue), var(--dark-blue));
-  padding: 40px 20px;
+  padding: 80px 20px;
   border-radius: 25px;
   text-align: center;
   color: var(--white);
@@ -107,8 +111,8 @@ body {
 }
 .thank-state .rate {
   width:fit-content;
-  padding: 5px 10px;
-  font-size: 12px;
+  padding: 7px 10px;
+  font-size: 14px;
   background-color: var(--light-dark-blue);
   border-radius: 25px;
   margin: 0 auto 10px;
@@ -116,10 +120,11 @@ body {
 
 }
 .thank-state h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 25px;
+  margin: 25px 0 0;
 }
 .thank-state p {
-  font-size: 11px;
+  font-size: 15px;
+  margin-top: 15px;
   color: var(--medium-grey);
 }
